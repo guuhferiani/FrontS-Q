@@ -11,7 +11,7 @@ body{
     width: 100%; /* largura */
     display: flex;
     justify-content: center;
-    background: linear-gradient(#7aeef8, #c7c8c8);
+    background: linear-gradient(#64ddff,#9d9d9d);
     background-repeat: no-repeat;
 }   
 /* Logo  */ 
@@ -26,7 +26,7 @@ body{
 }
 
 /* Titulo */ 
-.name{
+.nome{
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -35,3 +35,31 @@ body{
     color: #308ff4;
     font-family: Arial, Helvetica, sans-serif;
 }
+.redes-sociais{
+    margin-top: 10px;  /* margem superior   */ 
+    justify-content: center;  /*centralizar texto */ 
+    align-items: center;
+    /* background: red;  cor para da DIV */ 
+}
+.icon, .email{
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 1);  /* caixa de sombra  */
+    margin: 5px;
+    overflow: hidden;  /* efeito Mascara */
+}
+.icon i, .email i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center; /* alinhar texto */
+    font-size: 20px; /* 22 */
+    border-radius: 30px;
+    background-color:azure; 
+    color: #308ff4;  /* cor do texto */
+    cursor: pointer;
+}
+
