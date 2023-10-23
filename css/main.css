@@ -174,3 +174,44 @@ body{
 #movie.active {
     display: block;
 }
+.rodape p {
+    color: #1a4994;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 50px ;
+    font-family: 'Metal Mania', cursive;
+}
+
+/* R CecursoSS que Renderiza o conteudo do site e adapte para diverças resoluções */ 
+
+/*  resolução 700px  */
+@media (max-width: 700px) {
+    .imagem img {
+        width: 150px;
+        border-radius: 200px;
+        margin-top: 25px;
+    }
+    .texto {
+        width: 300px;
+        height: 500px;
+    }
+    .linguagem img{
+        width: 165px;
+    }
+    .subtitulo {
+        font-size: 30px;
+    }
+    .item {
+        width: 350px;
+    }
+    #movie {
+        width: 350px;
+    }
+} /*  resolução 700px  */
+
+
+@media (max-width: 500px) {
+
+}
